@@ -10,3 +10,36 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.wrapper {
+    background-color: black;
+    width: 1000px;
+    height: 200px;
+    
+}
+
+.full-clock {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.digit {
+    display: inline;
+    color: white;
+    font-size: 50px;
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.icon {
+    display: inline;
+   
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 200px;
+    text-align: center;
+}
+
